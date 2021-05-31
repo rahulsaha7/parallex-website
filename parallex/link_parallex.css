@@ -1,0 +1,160 @@
+body{
+	background-image: url('https://www.investopedia.com/thmb/u7hZ6fRwjhWHyrp17Bl5SPzVbMI=/1626x0/filters:no_upscale():max_bytes(150000):strip_icc()/pedestrian-architecture-road-skyline-traffic-street-71505-pxhere.com-ea7fd4d112754938828312ff123c084c.jpg');
+	background-size: cover ;
+	background-attachment: fixed;
+}
+.menu-ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.submenu-ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.submenu-ul-2{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.menu-ul > li{
+	float: left;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	margin: 5px 15px 0 10px ;
+}
+.submenu{
+	display: none;
+	height: auto;
+	width: auto;
+	/*margin-top: 5px;*/
+	background-color: rgba(89, 217, 123, 0.7) ;
+}
+ .menu > ul >  li:hover > .submenu  {
+	display: block;
+	position: absolute;
+} 
+.menu{
+	height: 40px;
+	width: auto;
+	justify-content: center;
+	background-color: rgba(89, 217, 123, 0.7);
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background-color:skyblue;
+	color: black; 
+}
+a.activate{
+	background-color: green;
+	color: black;
+}
+
+ul.submenu-ul > li {
+	margin: 5px 10px 8px ;
+	padding: 2px;
+	border-bottom: 1px dotted white;
+	border-radius: 2%; 
+}
+.submenu-li:last-child {
+	border-bottom: none;
+}
+
+.submenu2{
+	display: none;
+	height: auto;
+	width: auto;
+	background-color:rgba(89, 217, 123, 0.7); 
+}
+.menu > ul > li:hover > .submenu2{
+	display: block;
+	position: absolute;
+}
+
+ul.submenu-ul-2 > li{
+	margin: 5px 10px 8px ;
+	padding: 2px;
+	border-bottom: 1px dotted white;
+	border-radius: 2%;
+}
+.subemenu-li-2:last-child {
+	border-bottom: none;
+}
+
+.sec-1{
+	display: grid;
+	height: 500px;
+	width: auto;
+	grid-template-rows: 250px;
+	justify-content: center;
+	align-content: center;
+}
+.item1 > h2{
+	font-size: 25px;
+	background-color: black;
+	padding: 20px; 
+	color: white;
+	position: relative;
+}
+
+.sec-2{
+	display: grid;
+	height: 300px;
+	width: auto;
+	grid-template-rows:  100px 300px;
+	background-color: white;
+
+}
+
+.item2{
+	text-align: center;
+	padding: 50px 80px;
+}
+.image-to-text{
+	height: 400px;
+	width: auto;
+	display: grid;
+	grid-template-rows: 200px;
+	justify-content: center;
+	align-items: center;
+}
+div.image-to-text > h3 { 
+	font-size: 25px;
+	padding-top: 40px; 
+	color: white;
+}
+.sec-3{
+	height: 300px;
+	width: auto;
+	display: grid;
+	grid-template-rows: 100px 300px;
+	background-color: black;
+} 
+.item3{
+	color: white;
+	text-align: center;
+	padding: 50px 80px;
+}
+.image-three-text{
+	height: 400px;
+	width: auto;
+	display: grid;
+	grid-template-rows: 200px;
+	justify-content: center;
+	align-items: center;
+}
+div.image-three-text h3{
+	font-size: 25px;
+	padding-top: 40px; 
+	color: white;
+}
+
+
+
+
+
